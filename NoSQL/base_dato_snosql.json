@@ -1,0 +1,231 @@
+ {
+      "__collections__": {
+        "Carreras": {
+          "sDp7xFvDXElLNMTkfL7B": {
+            "nombre_carrera": "Ing de Sistemas",
+            "__collections__": {
+              "Materias": {
+                "eGiqOcWUWm1LbFh445Yy": {
+                  "apellido_profesor": "Alvarez",
+                  "nombre_materia": "Base de datos",
+                  "nombre_profesor": "Pedro",
+                  "__collections__": {}
+                }
+              }
+            }
+          },
+          "C001": {
+            "codigo_carrera": "C001",
+            "nombre_carrera": "Ingeniería en Sistemas",
+            "__collections__": {}
+          },
+          "C002": {
+            "codigo_carrera": "C002",
+            "nombre_carrera": "Administración de Empresas",
+            "__collections__": {}
+          },
+          "C003": {
+            "codigo_carrera": "C003",
+            "nombre_carrera": "Derecho",
+            "__collections__": {}
+          }
+        },
+        "Estudiantes": {
+          "lCrjvedBnfCMAcqCIfm9": {
+            "apellido_estudiante": "González",
+            "carrera": {
+              "codigo_carrera": "C002",
+              "nombre_carrera": "Administración de Empresas"
+            },
+            "nombre_estudiante": "María",
+            "__collections__": {
+              "Evaluaciones": {
+                "GJebuhWau07AuOfb12Hl": {
+                  "fecha_evaluacion": "2024-04-13",
+                  "materia": {
+                    "apellido_profesor": "Dominguez",
+                    "nombre_materia": "Contabilidad",
+                    "nombre_profesor": "Roberto"
+                  },
+                  "nombre_evaluacion": "Parcial 3",
+                  "nota_evaluacion": 77,
+                  "__collections__": {}
+                }
+              }
+            }
+          },
+          "peIqxgQRmD1IJH0CIKuo": {
+            "Carrera": {
+              "codigo_carrera ": "C001",
+              "nombre_carrera": "Ing de Sistemas"
+            },
+            "apellido_estudiante": "Clemont",
+            "nombre_estudiante": "Luis",
+            "__collections__": {
+              "Evaluaciones": {
+                "flh9yjHSyoFwGIhyPh31": {
+                  "fecha_evaluacion": {
+                    "__time__": "2024-04-18T13:45:00.632Z"
+                  },
+                  "materia": {
+                    "apellido_profesor": "Alvarez",
+                    "nombre_materia": "Base de datos",
+                    "nombre_profesor": "Pedro"
+                  },
+                  "nombre_evaluacion": "Examen 1",
+                  "nota_evaluacion": 20,
+                  "__collections__": {}
+                }
+              }
+            }
+          },
+          "NHSwwVF85fmp3LmSl61z": {
+            "apellido_estudiante": "Perez",
+            "carrera": {
+              "codigo_carrera": "C001",
+              "nombre_carrera": "Ingeniería en Sistemas"
+            },
+            "nombre_estudiante": "Juan",
+            "__collections__": {
+              "Evaluaciones": {
+                "F53I9lCx48ZqVKdBOe3V": {
+                  "fecha_evaluacion": "2024-04-18",
+                  "materia": {
+                    "apellido_profesor": "Sánchez",
+                    "nombre_materia": "Programación I",
+                    "nombre_profesor": "Ana"
+                  },
+                  "nombre_evaluacion": "Parcial 1",
+                  "nota_evaluacion": 80,
+                  "__collections__": {}
+                },
+                "fyWWK6R9Iry7y9TIPfz2": {
+                  "fecha_evaluacion": "2024-04-16",
+                  "materia": {
+                    "apellido_profesor": "Sánchez",
+                    "nombre_materia": "Programación I",
+                    "nombre_profesor": "Ana"
+                  },
+                  "nombre_evaluacion": "Parcial 1",
+                  "nota_evaluacion": 80,
+                  "__collections__": {}
+                }
+              }
+            }
+          },
+          "4lmQtKQ1RBSy4AzVPPX7": {
+            "apellido_estudiante": "Díaz",
+            "carrera": {
+              "codigo_carrera": "C002",
+              "nombre_carrera": "Administración de Empresas"
+            },
+            "nombre_estudiante": "Pedro",
+            "__collections__": {
+              "Evaluaciones": {
+                "1ThGtFsqJIqTDnR62yCw": {
+                  "fecha_evaluacion": "2024-04-12",
+                  "materia": {
+                    "apellido_profesor": "Ramírez",
+                    "nombre_materia": "Derecho Constitucional",
+                    "nombre_profesor": "Laura"
+                  },
+                  "nombre_evaluacion": "Parcial 2",
+                  "nota_evaluacion": 92,
+                  "__collections__": {}
+                },
+                "LBjiSvLeQC04chjT1r2v": {
+                  "fecha_evaluacion": "2024-04-15",
+                  "materia": {
+                    "apellido_profesor": "Ramírez",
+                    "nombre_materia": "Derecho Constitucional",
+                    "nombre_profesor": "Laura"
+                  },
+                  "nombre_evaluacion": "Parcial 2",
+                  "nota_evaluacion": 63,
+                  "__collections__": {}
+                },
+                "O8UWmNV2uSF6qkyfAaAq": {
+                  "fecha_evaluacion": "2024-04-18",
+                  "materia": {
+                    "apellido_profesor": "Ramírez",
+                    "nombre_materia": "Derecho Constitucional",
+                    "nombre_profesor": "Laura"
+                  },
+                  "nombre_evaluacion": "Parcial 2",
+                  "nota_evaluacion": 97,
+                  "__collections__": {}
+                }
+              }
+            }
+          },
+          "DpSPhFoFW2cEgIJbfbDL": {
+            "apellido_estudiante": "Martínez",
+            "carrera": {
+              "codigo_carrera": "C003",
+              "nombre_carrera": "Derecho"
+            },
+            "nombre_estudiante": "Laura",
+            "__collections__": {
+              "Evaluaciones": {
+                "MqhI31E4LQ1gdRXfAhto": {
+                  "fecha_evaluacion": "2024-04-17",
+                  "materia": {
+                    "apellido_profesor": "Ramírez",
+                    "nombre_materia": "Derecho Constitucional",
+                    "nombre_profesor": "Laura"
+                  },
+                  "nombre_evaluacion": "Parcial 1",
+                  "nota_evaluacion": 97,
+                  "__collections__": {}
+                },
+                "y5b0Un4C8vZrrN4uFcEa": {
+                  "fecha_evaluacion": "2024-04-19",
+                  "materia": {
+                    "apellido_profesor": "Sánchez",
+                    "nombre_materia": "Programación I",
+                    "nombre_profesor": "Ana"
+                  },
+                  "nombre_evaluacion": "Parcial 3",
+                  "nota_evaluacion": 60,
+                  "__collections__": {}
+                }
+              }
+            }
+          },
+          "Zh8BGD8jn3fjlpjVARnv": {
+            "apellido_estudiante": "López",
+            "carrera": {
+              "codigo_carrera": "C001",
+              "nombre_carrera": "Ingeniería en Sistemas"
+            },
+            "nombre_estudiante": "Carlos",
+            "__collections__": {
+              "Evaluaciones": {
+                "8iTv1LH8RK52e1sFsg9p": {
+                  "fecha_evaluacion": "2024-04-20",
+                  "materia": {
+                    "apellido_profesor": "Dominguez",
+                    "nombre_materia": "Contabilidad",
+                    "nombre_profesor": "Roberto"
+                  },
+                  "nombre_evaluacion": "Parcial 3",
+                  "nota_evaluacion": 85,
+                  "__collections__": {}
+                },
+                "ArFq8CLj9J8k2ju6Vi3b": {
+                  "fecha_evaluacion": "2024-04-20",
+                  "materia": {
+                    "apellido_profesor": "Ramírez",
+                    "nombre_materia": "Derecho Constitucional",
+                    "nombre_profesor": "Laura"
+                  },
+                  "nombre_evaluacion": "Parcial 2",
+                  "nota_evaluacion": 61,
+                  "__collections__": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
